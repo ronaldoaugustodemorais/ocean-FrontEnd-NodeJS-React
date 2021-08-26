@@ -34,7 +34,6 @@ class Agua extends React.Component {
         <p>Fusão: {this.props.fusao} graus</p>
         <p>Ebulição: {this.props.ebulicao} graus</p>
         <p>Condição: {this.props.condicao}</p>
-
         <button onClick={this.verEstado}> Ver estado</button>
         <button onClick={this.estadoGelado}> Gelado </button>
         <button onClick={this.estadoLiquido}> Liquido </button>
